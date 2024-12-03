@@ -1,0 +1,38 @@
+########################################################################
+#                         Clippy Configuration                         #
+#                                                                      #
+# This file controls the `cargo clippy` linter for the lints where it  #
+# accepts external input. Relatively few lints do; most require        #
+# attributes set directly in the source code.                          #
+########################################################################
+
+msrv = "1.67.1"
+allow-expect-in-tests = true
+allow-unwrap-in-tests = true
+
+# https://nnethercote.github.io/perf-book/hashing.html
+[[disallowed-types]]
+path = "std::collections::HashMap"
+reason = """the standard library hasher is secure by default, but not very fast.
+use the faster `hashbrown::HashMap` or concurrent `dashmap::DashMap` instead."""
+
+[[disallowed-types]]
+path = "std::collections::HashSet"
+reason = """the standard library hasher is secure by default, but not very fast.
+use the faster `hashbrown::HashSet` or concurrent `dashmap::DashSet` instead."""
+
+[[disallowed-types]]
+path = "std::sync::mpsc::Sender"
+reason = """"Use the non-legacy and faster `crossbeam_channel::Sender` crate instead of `std::sync::mpsc::Sender`"""
+
+[[disallowed-types]]
+path = "std::sync::mpsc::SyncSender"
+reason = """"Use the non-legacy and faster `crossbeam_channel` crate instead of `std::sync::mpsc::Sender`"""
+
+[[disallowed-types]]
+path = "std::sync::mpsc::Receiver"
+reason = """"Use the non-legacy and faster `crossbeam_channel::Receiver` crate instead of `std::sync::mpsc::Receiver`"""
+
+[[disallowed-macros]]
+path = "proptest::prop_oneof"
+reason = "use `proptest::strategy::Union::new` instead"

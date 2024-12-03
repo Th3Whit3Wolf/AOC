@@ -1,0 +1,14 @@
+########################################################################
+#                       Rust Style Configuration                       #
+#                                                                      #
+# This file controls the operation of `rustfmt` and `cargo fmt`.       #
+#                                                                      #
+# See <https://rust-lang.github.io/rustfmt/?version=v1.6.0>            #
+########################################################################
+
+edition = "2021"
+max_width = 80
+newline_style = "Unix"
+use_field_init_shorthand = true
+use_small_heuristics = "Default"
+use_try_shorthand = true
