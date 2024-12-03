@@ -1,0 +1,4 @@
+**/target
+**/day**/input
+**/day**/input.txt
+.env
