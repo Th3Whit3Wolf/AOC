@@ -1,0 +1,29 @@
+[package]
+name = "aoc-2023-08"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aoc = { workspace = true }
+itertools = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+miette = { workspace = true }
+thiserror = { workspace = true }
+dhat = { workspace = true }
+rstest = { workspace = true }
+pretty_assertions = { workspace = true }
+rayon = { workspace = true }
+
+[dev-dependencies]
+divan = { workspace = true }
+
+[[bench]]
+name = "aoc-2023-08"
+path = "benches/benchmarks.rs"
+harness = false
+
+[features]
+dhat-heap = []

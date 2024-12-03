@@ -1,0 +1,35 @@
+
+day_01                 fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 1: Trebuchet?!                │               │               │               │         │
+   ├─ Part 1           36.12 µs      │ 318.9 µs      │ 58.33 µs      │ 68.86 µs      │ 100     │ 100
+   ╰─ Part 2           53.95 µs      │ 400.7 µs      │ 76.75 µs      │ 89.75 µs      │ 100     │ 100
+
+day_02                    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 2: Cube Conundrum                │               │               │               │         │
+   ├─ Part 1              31.41 µs      │ 302.4 µs      │ 52.72 µs      │ 68.8 µs       │ 100     │ 100
+   ╰─ Part 2              44.33 µs      │ 301.6 µs      │ 58.72 µs      │ 71.47 µs      │ 100     │ 100
+
+day_03                 fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 3: Gear Ratios                │               │               │               │         │
+   ├─ Part 1           97.95 µs      │ 172.9 µs      │ 101 µs        │ 103.9 µs      │ 100     │ 100
+   ╰─ Part 2           128 µs        │ 203.2 µs      │ 133.6 µs      │ 134.3 µs      │ 100     │ 100
+
+day_04                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 4: Scratchcards                │               │               │               │         │
+   ├─ Part 1            74.08 µs      │ 323.6 µs      │ 103.9 µs      │ 116.6 µs      │ 100     │ 100
+   ╰─ Part 2            96.16 µs      │ 465.3 µs      │ 130.1 µs      │ 146.6 µs      │ 100     │ 100
+
+day_05                                     fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 5: If You Give A Seed A Fertilizer                │               │               │               │         │
+   ├─ Part 1                               30.12 µs      │ 190.1 µs      │ 47.02 µs      │ 61.18 µs      │ 100     │ 100
+   ╰─ Part 2                               58.49 µs      │ 286.6 µs      │ 96.08 µs      │ 107 µs        │ 100     │ 100
+
+day_06                 fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 6: Wait For It                │               │               │               │         │
+   ├─ Part 1           125.9 ns      │ 145.5 ns      │ 129.8 ns      │ 130.2 ns      │ 100     │ 3200
+   ╰─ Part 2           133.8 ns      │ 139 ns        │ 136.4 ns      │ 136.1 ns      │ 100     │ 3200
+
+day_07                 fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ Day 7: Camel Cards                │               │               │               │         │
+   ├─ Part 1           78.62 µs      │ 146.3 µs      │ 84.31 µs      │ 87.42 µs      │ 100     │ 100
+   ╰─ Part 2           73.66 µs      │ 162.4 µs      │ 74.54 µs      │ 80.03 µs      │ 100     │ 100
